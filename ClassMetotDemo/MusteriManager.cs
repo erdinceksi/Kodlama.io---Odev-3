@@ -49,7 +49,7 @@ namespace ClassMetotDemo
 
                             if (pos != -1)
                             {
-                                Console.WriteLine("\nBu Id'ye ait müşteri zaten var.\n");
+                                Console.WriteLine("\nBu Id'ye ait musteri zaten var.\n");
                                 break;
                             }
                             else
