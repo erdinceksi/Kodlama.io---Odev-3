@@ -32,7 +32,7 @@ namespace ClassMetotDemo
                         Id = Console.ReadLine();
                         if (Id == "")
                         {
-                            Console.WriteLine("\nLütfen gecerli bir deger giriniz.\n");
+                            Console.WriteLine("\nLutfen gecerli bir deger giriniz.\n");
                             break;
                         }
                         else
@@ -58,14 +58,14 @@ namespace ClassMetotDemo
                                 Name = Console.ReadLine();
                                 if (Name == "")
                                 {
-                                    Console.WriteLine("\nLütfen gecerli bir deger giriniz.\n");
+                                    Console.WriteLine("\nLutfen gecerli bir deger giriniz.\n");
                                     break;
                                 }
                                 Console.Write("Musteri Soyadi Giriniz: ");
                                 Surname = Console.ReadLine();
                                 if (Surname == "")
                                 {
-                                    Console.WriteLine("\nLütfen gecerli bir deger giriniz.\n");
+                                    Console.WriteLine("\nLutfen gecerli bir deger giriniz.\n");
                                     break;
                                 }
                                 MusteriEkle(Id, Name, Surname);
@@ -84,7 +84,7 @@ namespace ClassMetotDemo
                             Id = Console.ReadLine();
                             if (Id == "")
                             {
-                                Console.WriteLine("\nLütfen gecerli bir deger giriniz.\n");
+                                Console.WriteLine("\nLutfen gecerli bir deger giriniz.\n");
                                 break;
                             }
                             MusteriSil(Id);
